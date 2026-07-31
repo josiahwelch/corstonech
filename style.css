@@ -10,7 +10,7 @@ nav a {
 	font-style: normal;
 	text-decoration-line: none;
 	background-color: #222222;
-	color: #999999;
+	color: #DDDDDD;
 	border-radius: 25px;
 	margin: 32px;
 	padding: 8px;
@@ -18,6 +18,8 @@ nav a {
 
 nav {
 	padding: 16px;
+	background-image: url(GrayGradient.png);
+	background-size: 100%;
 }
 
 h1 {
@@ -26,10 +28,24 @@ h1 {
 }
 
 h2 {
+	font-size: 32px;
+}
+
+.section {
 	font-family: 'Segoe UI', sans-serif;
+	background-color: #EEEEEE;
+	color: #111111;
+	margin: 32px;
+	padding: 8px;
+}
+
+.section img {
+	width: 50%;
+	align: left;
 }
 
 body {
-	background-color: #990000;
+	background-image: url(RedGradient.jpg);
+	background-size: 100%;
 	color: #ffffff;
 }
