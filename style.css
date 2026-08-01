@@ -5,8 +5,8 @@ header {
 }
 
 nav a {
-	font-family: 'Segoe UI', sans-serif;
-	font-size: 32px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
 	font-style: normal;
 	text-decoration-line: none;
 	background-color: #222222;
@@ -28,20 +28,32 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 48px;
+	margin: 4px;
 }
 
 .section {
-	font-family: 'Segoe UI', sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	background-color: #EEEEEE;
 	color: #111111;
 	margin: 32px;
 	padding: 8px;
 }
 
-.section img {
-	width: 50%;
-	align: left;
+.section * {
+	width: 49%;
+}
+
+.right_subsection {
+	float: right;
+	background-color: #440000;
+	color: #EEEEEE;
+	height: 80%;
+}
+
+.right_subsection * {
+	margin: 16px;
+	width: 95%;
 }
 
 body {
