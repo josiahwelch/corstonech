@@ -56,8 +56,35 @@ h2 {
 	width: 95%;
 }
 
+#google_maps {
+	float: right;
+	font-family: "Times New Roman", Times, serif;
+	border-radius: 12px;
+	padding: 8px;
+	width: 35%;
+}
+
+#google_maps img {
+	margin-bottom: -5px;
+	margin-left: 0px;
+	height: 7%;
+	width: 7%;
+}
+
+#google_maps * {
+	width: 95%;
+	font-size: 36px;
+	font-style: normal;
+	text-decoration-line: none;
+	color: #DDDDDD;
+	text-align: center;
+	align: center;
+}
+
+
 body {
 	background-image: url(RedGradient.jpg);
 	background-size: 100%;
 	color: #ffffff;
 }
+
