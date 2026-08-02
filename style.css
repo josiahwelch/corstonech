@@ -1,6 +1,6 @@
 header {
 	background-color: #440000;
-	color: #ffffff;
+	color: #FFFFFF;
 	margin: -16px -8px -8px -8px;
 }
 
@@ -23,13 +23,19 @@ nav {
 }
 
 h1 {
-	margin: 16px;
 	font-size: 64px;
+	margin: 16px;
 }
 
 h2 {
 	font-size: 48px;
 	margin: 4px;
+}
+
+h3 {
+	font-size: 24px;
+	color: #DDDDDD;
+	margin: -16px 0px 8px 64px;
 }
 
 .section {
