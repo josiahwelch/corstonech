@@ -55,12 +55,19 @@ h3 {
 	float: right;
 	background-color: #440000;
 	color: #EEEEEE;
+	align-items: center;
 	overflow: auto;
 }
 
 .right_subsection * {
 	margin: 16px;
 	width: 95%;
+	overflow: auto;
+	align-items: center;
+}
+
+#facebook_img {
+	width: 10%;
 }
 
 #dailyVersesWrapper {
