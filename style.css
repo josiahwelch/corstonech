@@ -81,10 +81,15 @@ h2 {
 	align: center;
 }
 
-
 body {
 	background-image: url(RedGradient.jpg);
-	background-size: 100%;
+	background-size: cover;
 	color: #ffffff;
 }
 
+footer {
+	font-size: 18px;
+	background-color: #440000;
+	margin: -16px -8px -8px -8px;
+	padding: 16px;
+}
