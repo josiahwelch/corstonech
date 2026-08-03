@@ -115,6 +115,21 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+.section label,
+.section input[type="radio"] {
+    width: auto;
+    display: inline-block;
+}
+
+.section label {
+    margin-left: 6px;
+}
+
+.section input[type="radio"] {
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
